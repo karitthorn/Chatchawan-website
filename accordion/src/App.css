@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+main{
+  display:flex;
+  min-height: 100vh;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Prompt', sans-serif;
+  position: relative;
+
+}
+
+.container{
+  margin: 5rem Auto;
+  background: #fff;
+  border-radius: 0.25rem;
+  padding: 2rem 2rem;
+  max-width: 920px;
+  margin-left: 0px ;
+  margin-right: 40px;
+}
+
+.container span{
+  color: #5faa03;
+}
+
+
+
+.exampleClass {
+	padding: 12px 24px;
+    background-Color: white;
+    
+    border-Radius: 7px;
+    transition: transform 250ms cubic-bezier(.2,.8,.4,1);
+    border:transparent;
+    background: transparent;
+    align-self: center;
+    margin-left: 1rem;
+    min-width: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+  }
+
+.exampleClass:hover {
+	transform: scale(1.10);
+  }
+
+.exampleClass:active {
+	transform: scale(0.9);
+}
+
+.content{
+  padding: 1rem 1.5rem;
+  border: 2px solid rgb(218, 217, 217);
+  margin-bottom: 10px;
+  box-shadow: 0 5px 15px rgb(0, 0, 0,0.1);
+  width: 100%;
+  border-radius: 15px;
+}
+
+.content header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.content p{
+  color: rgb(0, 0, 0);
+}
+
+.ptitle{
+  color: #464646;
+  font-size: 18px;
+  width: 100%;
+}
+
+.navbar{
+  background-color: #71CC00;
+  height: 78px;
+  width: 100%;
+}
+
+.logo{
+  height: 90px;
+  margin-left: 20px;
+}
