@@ -49,6 +49,7 @@ function App() {
             <AiFillGithub />
           </a>
         </div>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScU2cd3P0p2Eo-8CKNcDZtyk8kBz4ZhsfywScCTAx5FllB1fQ/viewform?usp=sf_link">ข้อเสนอเเนะ หรือ เสนอนโยบาย(คลิ้ก)</a></p>
       </div>
     </>
   );
