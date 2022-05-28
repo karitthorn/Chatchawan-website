@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
+*{
+  font-family: 'Prompt', sans-serif;
+}
+
 main{
   display:flex;
   min-height: 100vh;
@@ -84,4 +88,32 @@ main{
 .logo{
   height: 90px;
   margin-left: 20px;
+}
+
+.footer{
+  display: flex;
+  background: #DCE35B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height:300px;
+  width: 100%;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.footer h1{
+  margin-top: 30px;
+  color:#121212;
+  font-size: 25px;
+  
+}
+
+.github{
+  font-size: 50px;
+}
+
+.github a{
+  color: rgb(0, 0, 0);
 }
