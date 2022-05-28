@@ -2,6 +2,7 @@ import {useState} from "react"
 import { AiFillCaretLeft,AiFillCaretDown } from "react-icons/ai";
 import React, { Component }  from 'react';
 import ReactDOM from 'react-dom'
+import './SingleContent.css'
 
 const SingleContent = ({title, description}) => {
     const [showContent,setShowContent] = useState(false)

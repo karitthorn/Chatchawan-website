@@ -42,7 +42,7 @@ function App() {
         </div>
       </main>
       <div className="footer">
-        <h1>"พูดจริง ทำจริง ไม่ติงนัง"</h1>
+        <h1>"Chase the Impossible"</h1>
         <br></br>
         <div className="github">
           <a href="https://github.com/karitthorn/Chatchawan-website">
